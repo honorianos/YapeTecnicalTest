@@ -7,6 +7,9 @@
 
 import UIKit
 
+import RealmSwift
+
+var db: Realm = try! Realm()
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
@@ -16,9 +19,30 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        guard let scene = (scene as? UIWindowScene) else { return }
+        window = UIWindow(windowScene: scene)
+        configRealm()
+        BDUtil.initBd()
+        var controller: UIViewController!
+        controller = UINavigationController(rootViewController: HomeViewController())
+        window?.rootViewController = controller
+        window?.makeKeyAndVisible()
     }
 
+    func configRealm(){
+        let config = Realm.Configuration(
+            schemaVersion: 1,
+            migrationBlock : { migration, oldSchemaVersion in
+                switch oldSchemaVersion {
+                case 1:
+                    migration.enumerateObjects(ofType: ModelReceta.className(), {oldObj, newObj in})
+                default:
+                    break
+                }
+        })
+        Realm.Configuration.defaultConfiguration = config
+    }
+    
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
         // This occurs shortly after the scene enters the background, or when its session is discarded.

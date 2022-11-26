@@ -16,6 +16,34 @@
 		C92BC26029303F2D00961268 /* YapeTecnicalTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92BC25F29303F2D00961268 /* YapeTecnicalTestTests.swift */; };
 		C92BC26A29303F2D00961268 /* YapeTecnicalTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92BC26929303F2D00961268 /* YapeTecnicalTestUITests.swift */; };
 		C92BC26C29303F2D00961268 /* YapeTecnicalTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92BC26B29303F2D00961268 /* YapeTecnicalTestUITestsLaunchTests.swift */; };
+		C92BC27D2930408000961268 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C92BC27C2930408000961268 /* CryptoSwift */; };
+		C97506552931D35200830349 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C97506542931D35200830349 /* Kingfisher */; };
+		C9B1844B293263E600B7A241 /* DetallReceta.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B18449293263E600B7A241 /* DetallReceta.swift */; };
+		C9B1844C293263E600B7A241 /* DetallReceta.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9B1844A293263E600B7A241 /* DetallReceta.xib */; };
+		C9B1844F2932815E00B7A241 /* DetailMapReceta.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1844D2932815E00B7A241 /* DetailMapReceta.swift */; };
+		C9B184502932815E00B7A241 /* DetailMapReceta.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9B1844E2932815E00B7A241 /* DetailMapReceta.xib */; };
+		C9B18452293290C300B7A241 /* DetallRecetaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B18451293290C200B7A241 /* DetallRecetaPresenter.swift */; };
+		C9B18454293290D500B7A241 /* DetailMapRecetaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B18453293290D500B7A241 /* DetailMapRecetaPresenter.swift */; };
+		C9BF6CEA293041FD00EEA541 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C9BF6CE9293041FD00EEA541 /* Alamofire */; };
+		C9BF6CED293042C100EEA541 /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = C9BF6CEC293042C100EEA541 /* JGProgressHUD */; };
+		C9BF6CF82930478B00EEA541 /* KeychainSwiftDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BF6CF72930478B00EEA541 /* KeychainSwiftDistrib.swift */; };
+		C9BF6CFA29304A0B00EEA541 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BF6CF929304A0B00EEA541 /* Utils.swift */; };
+		C9BF6CFC29304A3000EEA541 /* PascalCaseDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BF6CFB29304A3000EEA541 /* PascalCaseDecode.swift */; };
+		C9BF6CFE29304A6300EEA541 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BF6CFD29304A6300EEA541 /* UITextField+Extension.swift */; };
+		C9BF6D0029304A7200EEA541 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BF6CFF29304A7200EEA541 /* AppColor.swift */; };
+		C9BF6D0329304D5D00EEA541 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = C9BF6D0229304D5D00EEA541 /* Realm */; };
+		C9BF6D0529304D6500EEA541 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C9BF6D0429304D6500EEA541 /* RealmSwift */; };
+		C9BF6D0729304FE200EEA541 /* BDUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BF6D0629304FE200EEA541 /* BDUtil.swift */; };
+		C9BF6D09293050AF00EEA541 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BF6D08293050AF00EEA541 /* Credentials.swift */; };
+		C9BF6D0E293051E300EEA541 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BF6D0C293051E300EEA541 /* HomeViewController.swift */; };
+		C9BF6D0F293051E300EEA541 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9BF6D0D293051E300EEA541 /* HomeViewController.xib */; };
+		C9BF6D112930761D00EEA541 /* StructRecetas.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BF6D102930761D00EEA541 /* StructRecetas.swift */; };
+		C9BF6D13293079DC00EEA541 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BF6D12293079DC00EEA541 /* HomePresenter.swift */; };
+		C9BF6D1529307A3E00EEA541 /* APIconnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BF6D1429307A3E00EEA541 /* APIconnect.swift */; };
+		C9BF6D1829307B1600EEA541 /* RecetaDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BF6D1729307B1600EEA541 /* RecetaDao.swift */; };
+		C9BF6D1C29307B6D00EEA541 /* ModelReceta.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BF6D1B29307B6D00EEA541 /* ModelReceta.swift */; };
+		C9BF6D2529308F0900EEA541 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BF6D2329308F0900EEA541 /* HomeCell.swift */; };
+		C9BF6D2629308F0900EEA541 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9BF6D2429308F0900EEA541 /* HomeCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +77,28 @@
 		C92BC26529303F2D00961268 /* YapeTecnicalTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YapeTecnicalTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92BC26929303F2D00961268 /* YapeTecnicalTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YapeTecnicalTestUITests.swift; sourceTree = "<group>"; };
 		C92BC26B29303F2D00961268 /* YapeTecnicalTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YapeTecnicalTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C9B18449293263E600B7A241 /* DetallReceta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallReceta.swift; sourceTree = "<group>"; };
+		C9B1844A293263E600B7A241 /* DetallReceta.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetallReceta.xib; sourceTree = "<group>"; };
+		C9B1844D2932815E00B7A241 /* DetailMapReceta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMapReceta.swift; sourceTree = "<group>"; };
+		C9B1844E2932815E00B7A241 /* DetailMapReceta.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailMapReceta.xib; sourceTree = "<group>"; };
+		C9B18451293290C200B7A241 /* DetallRecetaPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallRecetaPresenter.swift; sourceTree = "<group>"; };
+		C9B18453293290D500B7A241 /* DetailMapRecetaPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMapRecetaPresenter.swift; sourceTree = "<group>"; };
+		C9BF6CF72930478B00EEA541 /* KeychainSwiftDistrib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainSwiftDistrib.swift; sourceTree = "<group>"; };
+		C9BF6CF929304A0B00EEA541 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		C9BF6CFB29304A3000EEA541 /* PascalCaseDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalCaseDecode.swift; sourceTree = "<group>"; };
+		C9BF6CFD29304A6300EEA541 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		C9BF6CFF29304A7200EEA541 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		C9BF6D0629304FE200EEA541 /* BDUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDUtil.swift; sourceTree = "<group>"; };
+		C9BF6D08293050AF00EEA541 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		C9BF6D0C293051E300EEA541 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C9BF6D0D293051E300EEA541 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		C9BF6D102930761D00EEA541 /* StructRecetas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructRecetas.swift; sourceTree = "<group>"; };
+		C9BF6D12293079DC00EEA541 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		C9BF6D1429307A3E00EEA541 /* APIconnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIconnect.swift; sourceTree = "<group>"; };
+		C9BF6D1729307B1600EEA541 /* RecetaDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecetaDao.swift; sourceTree = "<group>"; };
+		C9BF6D1B29307B6D00EEA541 /* ModelReceta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelReceta.swift; sourceTree = "<group>"; };
+		C9BF6D2329308F0900EEA541 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		C9BF6D2429308F0900EEA541 /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +106,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C97506552931D35200830349 /* Kingfisher in Frameworks */,
+				C92BC27D2930408000961268 /* CryptoSwift in Frameworks */,
+				C9BF6CED293042C100EEA541 /* JGProgressHUD in Frameworks */,
+				C9BF6D0329304D5D00EEA541 /* Realm in Frameworks */,
+				C9BF6D0529304D6500EEA541 /* RealmSwift in Frameworks */,
+				C9BF6CEA293041FD00EEA541 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +139,7 @@
 				C92BC25E29303F2D00961268 /* YapeTecnicalTestTests */,
 				C92BC26829303F2D00961268 /* YapeTecnicalTestUITests */,
 				C92BC24629303F2900961268 /* Products */,
+				C9BF6D0129304D5D00EEA541 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +156,9 @@
 		C92BC24729303F2900961268 /* YapeTecnicalTest */ = {
 			isa = PBXGroup;
 			children = (
+				C9BF6CF12930464700EEA541 /* MVP */,
+				C9BF6CF02930462D00EEA541 /* Utils */,
+				C9BF6CEF2930461500EEA541 /* Extensions */,
 				C92BC24829303F2900961268 /* AppDelegate.swift */,
 				C92BC24A29303F2900961268 /* SceneDelegate.swift */,
 				C92BC24C29303F2900961268 /* ViewController.swift */,
@@ -127,6 +187,144 @@
 			path = YapeTecnicalTestUITests;
 			sourceTree = "<group>";
 		};
+		C9B184472932637100B7A241 /* DetallReceta */ = {
+			isa = PBXGroup;
+			children = (
+				C9B18449293263E600B7A241 /* DetallReceta.swift */,
+				C9B1844A293263E600B7A241 /* DetallReceta.xib */,
+			);
+			path = DetallReceta;
+			sourceTree = "<group>";
+		};
+		C9B184482932639900B7A241 /* DetailMapReceta */ = {
+			isa = PBXGroup;
+			children = (
+				C9B1844D2932815E00B7A241 /* DetailMapReceta.swift */,
+				C9B1844E2932815E00B7A241 /* DetailMapReceta.xib */,
+			);
+			path = DetailMapReceta;
+			sourceTree = "<group>";
+		};
+		C9BF6CEF2930461500EEA541 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C9BF6CFD29304A6300EEA541 /* UITextField+Extension.swift */,
+				C9BF6CFF29304A7200EEA541 /* AppColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C9BF6CF02930462D00EEA541 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C9BF6CF72930478B00EEA541 /* KeychainSwiftDistrib.swift */,
+				C9BF6CF929304A0B00EEA541 /* Utils.swift */,
+				C9BF6CFB29304A3000EEA541 /* PascalCaseDecode.swift */,
+				C9BF6D0629304FE200EEA541 /* BDUtil.swift */,
+				C9BF6D08293050AF00EEA541 /* Credentials.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C9BF6CF12930464700EEA541 /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				C9BF6CF42930466400EEA541 /* Model */,
+				C9BF6CF32930465900EEA541 /* Presenter */,
+				C9BF6CF22930465400EEA541 /* View */,
+			);
+			path = MVP;
+			sourceTree = "<group>";
+		};
+		C9BF6CF22930465400EEA541 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C9B184482932639900B7A241 /* DetailMapReceta */,
+				C9B184472932637100B7A241 /* DetallReceta */,
+				C9BF6D0A293051B700EEA541 /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C9BF6CF32930465900EEA541 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C9BF6D12293079DC00EEA541 /* HomePresenter.swift */,
+				C9B18451293290C200B7A241 /* DetallRecetaPresenter.swift */,
+				C9B18453293290D500B7A241 /* DetailMapRecetaPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C9BF6CF42930466400EEA541 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C9BF6D1A29307B4200EEA541 /* Receta */,
+				C9BF6D1629307AF100EEA541 /* Dao */,
+				C9BF6CF62930468700EEA541 /* Strutcs */,
+				C9BF6CF52930467100EEA541 /* Networking */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C9BF6CF52930467100EEA541 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C9BF6D1429307A3E00EEA541 /* APIconnect.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		C9BF6CF62930468700EEA541 /* Strutcs */ = {
+			isa = PBXGroup;
+			children = (
+				C9BF6D102930761D00EEA541 /* StructRecetas.swift */,
+			);
+			path = Strutcs;
+			sourceTree = "<group>";
+		};
+		C9BF6D0129304D5D00EEA541 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9BF6D0A293051B700EEA541 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C9BF6D0B293051C100EEA541 /* HomeCell */,
+				C9BF6D0C293051E300EEA541 /* HomeViewController.swift */,
+				C9BF6D0D293051E300EEA541 /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C9BF6D0B293051C100EEA541 /* HomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				C9BF6D2329308F0900EEA541 /* HomeCell.swift */,
+				C9BF6D2429308F0900EEA541 /* HomeCell.xib */,
+			);
+			path = HomeCell;
+			sourceTree = "<group>";
+		};
+		C9BF6D1629307AF100EEA541 /* Dao */ = {
+			isa = PBXGroup;
+			children = (
+				C9BF6D1729307B1600EEA541 /* RecetaDao.swift */,
+			);
+			path = Dao;
+			sourceTree = "<group>";
+		};
+		C9BF6D1A29307B4200EEA541 /* Receta */ = {
+			isa = PBXGroup;
+			children = (
+				C9BF6D1B29307B6D00EEA541 /* ModelReceta.swift */,
+			);
+			path = Receta;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +341,14 @@
 			dependencies = (
 			);
 			name = YapeTecnicalTest;
+			packageProductDependencies = (
+				C92BC27C2930408000961268 /* CryptoSwift */,
+				C9BF6CE9293041FD00EEA541 /* Alamofire */,
+				C9BF6CEC293042C100EEA541 /* JGProgressHUD */,
+				C9BF6D0229304D5D00EEA541 /* Realm */,
+				C9BF6D0429304D6500EEA541 /* RealmSwift */,
+				C97506542931D35200830349 /* Kingfisher */,
+			);
 			productName = YapeTecnicalTest;
 			productReference = C92BC24529303F2900961268 /* YapeTecnicalTest.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +421,13 @@
 				Base,
 			);
 			mainGroup = C92BC23C29303F2900961268;
+			packageReferences = (
+				C92BC27B2930408000961268 /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+				C9BF6CE8293041FD00EEA541 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				C9BF6CEB293042C000EEA541 /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+				C9BF6CEE2930435700EEA541 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				C97506532931D35100830349 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = C92BC24629303F2900961268 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +446,11 @@
 			files = (
 				C92BC25529303F2D00961268 /* LaunchScreen.storyboard in Resources */,
 				C92BC25229303F2D00961268 /* Assets.xcassets in Resources */,
+				C9B184502932815E00B7A241 /* DetailMapReceta.xib in Resources */,
 				C92BC25029303F2900961268 /* Main.storyboard in Resources */,
+				C9B1844C293263E600B7A241 /* DetallReceta.xib in Resources */,
+				C9BF6D0F293051E300EEA541 /* HomeViewController.xib in Resources */,
+				C9BF6D2629308F0900EEA541 /* HomeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +475,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9BF6CFA29304A0B00EEA541 /* Utils.swift in Sources */,
+				C9BF6D1C29307B6D00EEA541 /* ModelReceta.swift in Sources */,
+				C9BF6D0029304A7200EEA541 /* AppColor.swift in Sources */,
+				C9B1844B293263E600B7A241 /* DetallReceta.swift in Sources */,
+				C9BF6D112930761D00EEA541 /* StructRecetas.swift in Sources */,
+				C9B18454293290D500B7A241 /* DetailMapRecetaPresenter.swift in Sources */,
+				C9BF6D09293050AF00EEA541 /* Credentials.swift in Sources */,
 				C92BC24D29303F2900961268 /* ViewController.swift in Sources */,
+				C9BF6CFE29304A6300EEA541 /* UITextField+Extension.swift in Sources */,
 				C92BC24929303F2900961268 /* AppDelegate.swift in Sources */,
+				C9BF6CFC29304A3000EEA541 /* PascalCaseDecode.swift in Sources */,
+				C9B1844F2932815E00B7A241 /* DetailMapReceta.swift in Sources */,
+				C9BF6D0E293051E300EEA541 /* HomeViewController.swift in Sources */,
+				C9BF6D1529307A3E00EEA541 /* APIconnect.swift in Sources */,
+				C9BF6D13293079DC00EEA541 /* HomePresenter.swift in Sources */,
 				C92BC24B29303F2900961268 /* SceneDelegate.swift in Sources */,
+				C9BF6D2529308F0900EEA541 /* HomeCell.swift in Sources */,
+				C9B18452293290C300B7A241 /* DetallRecetaPresenter.swift in Sources */,
+				C9BF6CF82930478B00EEA541 /* KeychainSwiftDistrib.swift in Sources */,
+				C9BF6D0729304FE200EEA541 /* BDUtil.swift in Sources */,
+				C9BF6D1829307B1600EEA541 /* RecetaDao.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +682,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,7 +692,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -475,6 +711,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,7 +721,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -604,6 +841,82 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C92BC27B2930408000961268 /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.5.1;
+			};
+		};
+		C97506532931D35100830349 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		C9BF6CE8293041FD00EEA541 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = exactVersion;
+				version = 4.9.0;
+			};
+		};
+		C9BF6CEB293042C000EEA541 /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.2.0;
+			};
+		};
+		C9BF6CEE2930435700EEA541 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 10.19.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C92BC27C2930408000961268 /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C92BC27B2930408000961268 /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+		C97506542931D35200830349 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C97506532931D35100830349 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		C9BF6CE9293041FD00EEA541 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9BF6CE8293041FD00EEA541 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		C9BF6CEC293042C100EEA541 /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9BF6CEB293042C000EEA541 /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+		C9BF6D0229304D5D00EEA541 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9BF6CEE2930435700EEA541 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		C9BF6D0429304D6500EEA541 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9BF6CEE2930435700EEA541 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C92BC23D29303F2900961268 /* Project object */;
 }
