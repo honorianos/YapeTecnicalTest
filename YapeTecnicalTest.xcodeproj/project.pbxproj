@@ -16,7 +16,6 @@
 		C92BC26029303F2D00961268 /* YapeTecnicalTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92BC25F29303F2D00961268 /* YapeTecnicalTestTests.swift */; };
 		C92BC26A29303F2D00961268 /* YapeTecnicalTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92BC26929303F2D00961268 /* YapeTecnicalTestUITests.swift */; };
 		C92BC26C29303F2D00961268 /* YapeTecnicalTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92BC26B29303F2D00961268 /* YapeTecnicalTestUITestsLaunchTests.swift */; };
-		C92BC27D2930408000961268 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C92BC27C2930408000961268 /* CryptoSwift */; };
 		C97506552931D35200830349 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C97506542931D35200830349 /* Kingfisher */; };
 		C9B1844B293263E600B7A241 /* DetallReceta.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B18449293263E600B7A241 /* DetallReceta.swift */; };
 		C9B1844C293263E600B7A241 /* DetallReceta.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9B1844A293263E600B7A241 /* DetallReceta.xib */; };
@@ -107,7 +106,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C97506552931D35200830349 /* Kingfisher in Frameworks */,
-				C92BC27D2930408000961268 /* CryptoSwift in Frameworks */,
 				C9BF6CED293042C100EEA541 /* JGProgressHUD in Frameworks */,
 				C9BF6D0329304D5D00EEA541 /* Realm in Frameworks */,
 				C9BF6D0529304D6500EEA541 /* RealmSwift in Frameworks */,
@@ -342,7 +340,6 @@
 			);
 			name = YapeTecnicalTest;
 			packageProductDependencies = (
-				C92BC27C2930408000961268 /* CryptoSwift */,
 				C9BF6CE9293041FD00EEA541 /* Alamofire */,
 				C9BF6CEC293042C100EEA541 /* JGProgressHUD */,
 				C9BF6D0229304D5D00EEA541 /* Realm */,
@@ -422,7 +419,6 @@
 			);
 			mainGroup = C92BC23C29303F2900961268;
 			packageReferences = (
-				C92BC27B2930408000961268 /* XCRemoteSwiftPackageReference "CryptoSwift" */,
 				C9BF6CE8293041FD00EEA541 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				C9BF6CEB293042C000EEA541 /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
 				C9BF6CEE2930435700EEA541 /* XCRemoteSwiftPackageReference "realm-swift" */,
@@ -843,14 +839,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		C92BC27B2930408000961268 /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift.git";
-			requirement = {
-				kind = exactVersion;
-				version = 1.5.1;
-			};
-		};
 		C97506532931D35100830349 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
@@ -886,11 +874,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C92BC27C2930408000961268 /* CryptoSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C92BC27B2930408000961268 /* XCRemoteSwiftPackageReference "CryptoSwift" */;
-			productName = CryptoSwift;
-		};
 		C97506542931D35200830349 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C97506532931D35100830349 /* XCRemoteSwiftPackageReference "Kingfisher" */;

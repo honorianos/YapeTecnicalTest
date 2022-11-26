@@ -8,7 +8,6 @@
 import UIKit
 import JGProgressHUD
 import RealmSwift
-import CryptoSwift
 
 protocol HomePresenterDelegate: AnyObject {
     func presentGetReceta(recetas :[Receta])
