@@ -23,6 +23,7 @@
 		C9B184502932815E00B7A241 /* DetailMapReceta.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9B1844E2932815E00B7A241 /* DetailMapReceta.xib */; };
 		C9B18452293290C300B7A241 /* DetallRecetaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B18451293290C200B7A241 /* DetallRecetaPresenter.swift */; };
 		C9B18454293290D500B7A241 /* DetailMapRecetaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B18453293290D500B7A241 /* DetailMapRecetaPresenter.swift */; };
+		C9B184562932D46800B7A241 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = C9B184552932D46800B7A241 /* Readme.md */; };
 		C9BF6CEA293041FD00EEA541 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C9BF6CE9293041FD00EEA541 /* Alamofire */; };
 		C9BF6CED293042C100EEA541 /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = C9BF6CEC293042C100EEA541 /* JGProgressHUD */; };
 		C9BF6CF82930478B00EEA541 /* KeychainSwiftDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BF6CF72930478B00EEA541 /* KeychainSwiftDistrib.swift */; };
@@ -82,6 +83,7 @@
 		C9B1844E2932815E00B7A241 /* DetailMapReceta.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailMapReceta.xib; sourceTree = "<group>"; };
 		C9B18451293290C200B7A241 /* DetallRecetaPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallRecetaPresenter.swift; sourceTree = "<group>"; };
 		C9B18453293290D500B7A241 /* DetailMapRecetaPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMapRecetaPresenter.swift; sourceTree = "<group>"; };
+		C9B184552932D46800B7A241 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		C9BF6CF72930478B00EEA541 /* KeychainSwiftDistrib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainSwiftDistrib.swift; sourceTree = "<group>"; };
 		C9BF6CF929304A0B00EEA541 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		C9BF6CFB29304A3000EEA541 /* PascalCaseDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalCaseDecode.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 		C92BC23C29303F2900961268 = {
 			isa = PBXGroup;
 			children = (
+				C9B184552932D46800B7A241 /* Readme.md */,
 				C92BC24729303F2900961268 /* YapeTecnicalTest */,
 				C92BC25E29303F2D00961268 /* YapeTecnicalTestTests */,
 				C92BC26829303F2D00961268 /* YapeTecnicalTestUITests */,
@@ -446,6 +449,7 @@
 				C92BC25029303F2900961268 /* Main.storyboard in Resources */,
 				C9B1844C293263E600B7A241 /* DetallReceta.xib in Resources */,
 				C9BF6D0F293051E300EEA541 /* HomeViewController.xib in Resources */,
+				C9B184562932D46800B7A241 /* Readme.md in Resources */,
 				C9BF6D2629308F0900EEA541 /* HomeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
